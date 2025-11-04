@@ -31,7 +31,7 @@ FlowCtrl System is a Java console application that helps users track their menst
 (Include screenshots or code blocks like the sample you showed.)
 
 ## 6. Authors and Acknowledgment
-- [Your names here]
+- Cruzat, Angelyn A.
 
 ## 7. Future Enhancements
 - Add database for saving user data.
