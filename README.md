@@ -40,21 +40,3 @@ The system provides a friendly command-line interface where users can:
 | **Exception Handling** | Custom `InvalidDateException` used for invalid input |
 | **Arrays** | `String[] symptoms` array in `Cycle` class |
 | **Collections** | `ArrayList` for cycles and `HashMap` for users |
-
----
-
-## 💻 How to Run the Program (VS Code or CMD)
-
-### 📦 Requirements
-- **Java JDK 17 or higher**
-- **VS Code** with *Extension Pack for Java*
-- (Optional) **Code Runner** extension for one-click execution
-
-### ▶️ Steps
-1. Open **VS Code**.
-2. Go to **File → Open Folder** and select your project folder (e.g., `FlowCtrlSystem`).
-3. Ensure all `.java` files are inside that folder.
-4. Open the integrated terminal (**Ctrl + `**) and type:
-   ```bash
-   javac *.java
-   java Main
