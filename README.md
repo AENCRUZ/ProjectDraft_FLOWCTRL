@@ -1,38 +1,43 @@
-# ProjectDraft_FLOWCTRL
-Just like programmers manage data flow, FlowCtrl helps users manage their body’s flow, naturally and intuitively. This console-based menstrual tracker lets users log period dates, symptoms, and moods while intelligently predicting upcoming cycles. Simple, smart, and private, it’s self-care written in code.
-
 # 💧 FlowCtrl System
-### Your Personal Cycle Companion
+### Your Personal Cycle Companion  
+A Java console application for **CS 211 Final Project**
 
-## 1. Description / Overview
-FlowCtrl System is a Java console application that helps users track their menstrual cycles, moods, and symptoms. It predicts the next cycle and exports personalized reports.
+---
 
-## 2. OOP Concepts Applied
-- **Encapsulation:** Private attributes with getters/setters in User and Cycle classes.
-- **Inheritance:** PremiumUser extends User.
-- **Polymorphism:** generateReport() method overridden for PremiumUser.
-- **Abstraction:** Reportable interface implemented by ReportGenerator.
-- **Exception Handling:** Custom exception for invalid dates or input mismatch.
+## 🧠 Overview
+**FlowCtrl System** is a console-based menstrual cycle tracker built using Java.  
+It helps users record their cycle dates, moods, and symptoms, predict their next cycle, and export reports — all while demonstrating **Object-Oriented Programming (OOP)** principles.
 
-## 3. Program Structure
-- `Main` – Main menu and navigation.
-- `User` – Stores user data and cycle history.
-- `Cycle` – Represents a menstrual cycle.
-- `CycleManager` – Adds/view/predict cycles.
-- `ReportGenerator` – Creates text reports.
+The system provides a friendly command-line interface where users can:
+- Sign up and log in securely  
+- Record and view their menstrual cycles  
+- Predict their next cycle start date  
+- Export a personalized report as a `.txt` file  
 
-## 4. How to Run the Program
-1. Open terminal or command prompt.  
-2. Navigate to the project folder.  
-3. Compile: `javac *.java`  
-4. Run: `java Main`
+---
 
-## 5. Sample Output
-(Include screenshots or code blocks like the sample you showed.)
+## ⚙️ Features
 
-## 6. Authors and Acknowledgment
-- Cruzat, Angelyn A.
+| Feature | Description |
+|----------|-------------|
+| 🧍 **Sign Up / Log In** | Create and access user accounts securely |
+| 🩸 **Add Cycle** | Record cycle start and end dates, mood, and symptoms |
+| 📖 **View Cycle History** | View all recorded cycles |
+| 🌙 **Predict Next Cycle** | Calculates average cycle length and predicts next date |
+| 📄 **Export Report** | Generates a `.txt` report file with user data |
+| 🚫 **Exception Handling** | Handles invalid dates, mismatched passwords, and input errors |
 
-## 7. Future Enhancements
-- Add database for saving user data.
-- Add health tips and reminders.
+---
+
+## 🧩 OOP Concepts Used
+
+| OOP Concept | Implementation in FlowCtrl System |
+|--------------|----------------------------------|
+| **Encapsulation** | Private fields and getters/setters in `User` and `Cycle` classes |
+| **Inheritance** | `PremiumUser` extends `User` with enhanced reporting features |
+| **Polymorphism** | Overridden `getDetailedInfo()` method in `PremiumUser` |
+| **Abstraction** | `Reportable` interface defines `generateReport()` |
+| **Exception Handling** | Custom `InvalidDateException` used for invalid input |
+| **Arrays** | `String[] symptoms` array in `Cycle` class |
+| **Collections** | `ArrayList` for cycles and `HashMap` for users |
+
